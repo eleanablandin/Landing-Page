@@ -1,13 +1,34 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.navbar{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width:78vw;
+    justify-content: center;
+    flex-direction: column;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.row{
+    display: flex ;
+    justify-content: space-evenly;
+}
 
-*/
+.col{
+    
+    flex-grow: revert;
+    margin-bottom: 1rem;
+}
+.card{
+    width: 14rem; 
+    
+}
+
+img{
+    width: 100%;
+	height: 100%;
+    object-fit: contain;
+}
